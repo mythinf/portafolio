@@ -5,7 +5,9 @@
 }
 /* GLOBAL STYLES */
 body {
-
+  background-image: url(../assets/photos/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 img{
   height: 100vh;
