@@ -1,55 +1,106 @@
 *{
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 body{
+  font-family: 'Alef', sans-serif;
+}
+.row{
+  margin: 0;
+  padding: 0;
+}
+/*color header*/
+.color{
+  height:20vh;
+}
+/*navbar*/
+.navbar{
+  padding: 10px;
+}
+.text-align-right{
+  text-align: right;
+}
+ul li{
+  display: inline-block;
+}
+a{
+  /* background:hsla(0, 100%, 90%, 0.3); */
+  color: #000000 !important;
+  border-bottom: 2px solid #000000;
+}
+a:hover{
+  border-top: 2px solid #000000;
+}
+/*about me*/
+.about-me{
   background-image: url(../assets/photos/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
   height: 100vh;
-  font-family: 'Alef', sans-serif;
 }
-.header{
-  height: 30px;
-}
-ul{
-  padding: 5px;
-}
-ul li{
-  display: inline-block;
-  margin: 15px;
-}
-a{
-  /* background:hsla(0, 100%, 90%, 0.3); */
-  padding: 2px;
-  border-bottom: 2px solid #000000;
-  color: #000000 !important;
-}
-a:hover{
-  color: #ffff !important;
-  border-bottom: 2px solid #ffff;
-}
-.padding{
-  padding: 40px;
-}
-.empty{
-  height: 80vh;
-}
-.about-me{
+.description{
   color: #ffff !important;
   margin-top: 50px;
   background: hsla(0, 90%, 95%, 0.2);
 }
-p{
-  font-size: 20px;
+.padding{
+  padding: 40px;
 }
-.margin-top{
-  margin-top: 50px;
+/*skills*/
+.skills{
+
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
-img{
-  border-radius: 30vh;
-  height: 50vh;
-  filter: grayscale(70%);
+.soft-skills{
+  color: #ffff;
+  background-image: url(../assets/photos/softsk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+}
+.tech-skills{
+  color: #ffff;
+  background-image: url(../assets/photos/techsk.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+  height: 100vh;
+}
+.circle{
+  display: inline-block;
+  width:150px;
+  height: 150px;
+  margin: 40px;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.circle-tech{
+  background-color: rgba(69, 49, 69, 0.1);
+
+}
+.circle:hover{
+  animation-name: circle;
+  animation-duration: .3s;
+}
+
+/*icons back*/
+.back{
+ height: 5vh;
+}
+
+
+/*circle animate*/
+@keyframes circle {
+    from {  width:150px; height: 150px;}
+    to {width:100px; height: 100px;}
+}
+.col{
+  /* outline: 1px solid red; */
 }
