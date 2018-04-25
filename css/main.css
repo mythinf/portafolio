@@ -195,7 +195,7 @@ header {
 }
 /*About me section*/
 #about {
-	margin-top: 100px;
+	margin-top: 50px;
 	padding-top: 96px;
 	padding-bottom: 66px;
 	overflow: hidden;
@@ -221,9 +221,11 @@ header {
 	line-height: 1.5em;
 	font-size: 20px;
 }
-
-
 @media only screen and (max-width:768px) {
+#about{
+  margin-top: 50px;
+	height: 100vh !important;
+}
 #about h2 {
 	text-align: left;
 	color: #1e1a1b;
@@ -312,7 +314,7 @@ a .position:hover{
 	border-bottom-color: #E8E8EE;
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
-	height: 150vh;
+	height: 160vh;
 }
 #description-projects .selection {
 	margin: 0px auto;
